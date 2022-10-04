@@ -1,0 +1,98 @@
+body {
+    background: #2C2B3D;
+    color: #ffffff;
+}
+
+#wrap {
+    margin: 70px auto 0;
+    width: 1090px;
+}
+nav {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 65px;
+    margin: 0;
+    border: 0;
+    
+ 
+}
+
+ul, footer {
+    font-family: 'JetBrains Mono';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+}
+span {
+    color: #00BFA6;
+}
+
+strong {
+    color: #C2C2C2;
+}
+
+/*retirado especificidade de ul li para aplicar toda pagina*/
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    color: #00BFA6;
+}
+
+main {
+    margin: 70px 0 100px;
+
+    display: flex;
+    
+    justify-content: space-between;
+    justify-items: center;
+    gap: 80px;
+}
+
+main p {
+    font-family: 'Open Sans';
+    color: #C2C2C2;
+    text-align: center;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+h1 {
+    font-family: 'JetBrains Mono';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.line {
+    width: 570px;
+    height: 0px;
+    margin: 0 auto 25px;
+    border: 1px solid #00BFA6;
+}
+
+footer {
+    text-align: center;
+}
+
+#padlock {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
